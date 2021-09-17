@@ -6,38 +6,39 @@ namespace Assignment1
 {
     class Program
     {
-        static void ReplaceMatched(string findString, string replaceString, int noOfStringOccurrences)
+        static void ReplaceMatchedStringFromFile(string findString, string replaceString, int noOfStringOccurrences, string filePath)
         {
-            string filePath = @"C:\Check\samplefile.txt";
+            string fileText = File.ReadAllText(filePath);
 
-            Console.WriteLine(new FileInfo(filePath).Exists);
+            Regex regex = new Regex(findString);
+            string modifiedFileText = regex.Replace(fileText, replaceString, noOfStringOccurrences);
+
+            File.WriteAllText(filePath, modifiedFileText);
+        }
+
+        static void Main(string[] args)
+        {
+            string filePath = @"../../../../Assignment1/samplefile.txt";
+
             if (File.Exists(filePath))
             {
-                string fileText = File.ReadAllText(filePath);
+                Console.WriteLine("Find String: ");
+                string findString = Console.ReadLine();
 
-                Regex regex = new Regex(findString);
-                string modifiedFileText = regex.Replace(fileText, replaceString, noOfStringOccurrences);
+                Console.WriteLine("Replace String: ");
+                string replaceString = Console.ReadLine();
 
-                File.WriteAllText(filePath, modifiedFileText);
+                Console.WriteLine("No. of occurrences to replace: ");
+                int noOfStringOccurrences = int.Parse(Console.ReadLine());
+
+                ReplaceMatchedStringFromFile(findString, replaceString, noOfStringOccurrences, filePath);
+
+                Console.WriteLine("File is successfully updated!");
             }
             else
             {
                 Console.WriteLine("File not found, Please check the provided path again.");
             }
-        }
-
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Find String: ");
-            string findString = Console.ReadLine();
-
-            Console.WriteLine("Replace String: ");
-            string replaceString = Console.ReadLine();
-
-            Console.WriteLine("No. of occurrences to replace: ");
-            int noOfStringOccurrences = int.Parse(Console.ReadLine());
-
-            ReplaceMatched(findString, replaceString, noOfStringOccurrences);
         }
     }
 }
