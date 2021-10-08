@@ -1,0 +1,9 @@
+C:\Users\makams\source\repos\string_calculator\string_calculator\bin\Debug\string_calculator.exe.config
+C:\Users\makams\source\repos\string_calculator\string_calculator\bin\Debug\string_calculator.exe
+C:\Users\makams\source\repos\string_calculator\string_calculator\bin\Debug\string_calculator.pdb
+C:\Users\makams\source\repos\string_calculator\string_calculator\obj\Debug\string_calculator.Form1.resources
+C:\Users\makams\source\repos\string_calculator\string_calculator\obj\Debug\string_calculator.Properties.Resources.resources
+C:\Users\makams\source\repos\string_calculator\string_calculator\obj\Debug\string_calculator.csproj.GenerateResource.cache
+C:\Users\makams\source\repos\string_calculator\string_calculator\obj\Debug\string_calculator.csproj.CoreCompileInputs.cache
+C:\Users\makams\source\repos\string_calculator\string_calculator\obj\Debug\string_calculator.exe
+C:\Users\makams\source\repos\string_calculator\string_calculator\obj\Debug\string_calculator.pdb

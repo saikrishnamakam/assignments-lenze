@@ -1,0 +1,11 @@
+C:\Users\makams\source\repos\device_controller\device_controller\bin\Debug\device_controller.exe.config
+C:\Users\makams\source\repos\device_controller\device_controller\bin\Debug\device_controller.exe
+C:\Users\makams\source\repos\device_controller\device_controller\bin\Debug\device_controller.pdb
+C:\Users\makams\source\repos\device_controller\device_controller\obj\Debug\device_controller.Device2Details_Form.resources
+C:\Users\makams\source\repos\device_controller\device_controller\obj\Debug\device_controller.Device1Details_Form.resources
+C:\Users\makams\source\repos\device_controller\device_controller\obj\Debug\device_controller.Main_Form.resources
+C:\Users\makams\source\repos\device_controller\device_controller\obj\Debug\device_controller.Properties.Resources.resources
+C:\Users\makams\source\repos\device_controller\device_controller\obj\Debug\device_controller.csproj.GenerateResource.cache
+C:\Users\makams\source\repos\device_controller\device_controller\obj\Debug\device_controller.csproj.CoreCompileInputs.cache
+C:\Users\makams\source\repos\device_controller\device_controller\obj\Debug\device_controller.exe
+C:\Users\makams\source\repos\device_controller\device_controller\obj\Debug\device_controller.pdb
